@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+.flex-container {
+  display: flex;
+  max-width: 992px;
+  margin: auto;
+  width: 100%;
+  min-width: 320px;
+ }
+
 
 .background {
   background-image: url(assets/img/fundoeditada.jpg);
@@ -17,6 +25,7 @@
   display: flex;
  }
 
+ 
 
 .Main {
   position: absolute;
@@ -176,7 +185,7 @@ button {
   display: flex;
   text-decoration: none;
   border: 2px solid #F6BE7B;
-  padding: 10px 70px;
+  padding: 5px 20px;
   transition: .6s;
 
 }
@@ -199,11 +208,12 @@ button:hover {
 }
 
 .download a {
-  padding: 0 10px;
-  font-size: 20px;
+  padding: 0 2px;
+  font-size: 18px;
   color: #e2a815;
   text-decoration: none;
 }
+
 
 .container-projetos {
   background-color: #01395c
@@ -287,5 +297,3 @@ h5{
   cursor: pointer;
 
 }
-
-
